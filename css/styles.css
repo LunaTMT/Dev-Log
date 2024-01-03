@@ -1,0 +1,64 @@
+header {
+    margin: 0 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+header nav ul{
+    padding: 1px;
+    display: inline;
+}
+
+
+body {
+    background-color: cornflowerblue;
+}
+
+
+
+
+main h1 {
+    margin: 0 10%;
+    margin-top: 2.5%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; 
+}
+
+section h2 {
+    text-align: center;
+}
+
+.project_poster_and_date {
+    text-align: center;
+}
+
+section:first-of-type {
+    margin-top: 2.5%;
+}
+
+section {
+    background-color: #4f8eff;
+    border-style: groove;
+    margin: 5% 10%;
+    padding: 0 40px;
+}
+
+footer {
+    margin: 0 10%;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; 
+    padding-top: 10px; 
+}
+
+footer ul {
+    padding: 0 20px;
+}
+
+footer li {
+    list-style-position: inside; 
+    display: inline;
+  }
