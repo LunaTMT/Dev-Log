@@ -1,5 +1,5 @@
 header {
-    margin: 0 10%;
+    margin: 0 20%;
 }
 
 h1 {
@@ -7,9 +7,18 @@ h1 {
 }
 
 
-header nav ul{
-    padding: 1px;
-    display: inline;
+header nav ul{ 
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing as needed */
+    padding: 0;
+    
+}
+
+header nav {
+    border-style: groove;
+    
 }
 
 
@@ -18,11 +27,11 @@ body {
 }
 
 
-
-
 main h1 {
-    margin: 0 10%;
+    margin: 0 20%;
     margin-top: 2.5%;
+    padding: 2%;
+
     border-top: 1px solid #000;
     border-bottom: 1px solid #000; 
 }
@@ -42,12 +51,12 @@ section:first-of-type {
 section {
     background-color: #4f8eff;
     border-style: groove;
-    margin: 5% 10%;
+    margin: 5% 20%;
     padding: 0 40px;
 }
 
 footer {
-    margin: 0 10%;
+    margin: 0 20%;
     text-align: center;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000; 
